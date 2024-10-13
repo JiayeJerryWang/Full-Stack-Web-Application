@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.19",
+    "semantic-ui-react": "^2.1.3"
+  },
+  "name": "su22-cs411-team026-databasedogfathers",
+  "description": "This is a template for CS411 project repository. Please make sure that your title follows the convention: [TeamID]-[YourTeamName]. All TeamID should have a three digit coding (i.e. if you are team 20, you should have `team020` as your ID.). You should also make sure that your url for this repository is [su22-cs411-team000-teamname.git] so TAs can correctly clone your repository and keep them up-to-date.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cs411-su22/su22-cs411-team026-DatabaseDogfathers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cs411-su22/su22-cs411-team026-DatabaseDogfathers/issues"
+  },
+  "homepage": "https://github.com/cs411-su22/su22-cs411-team026-DatabaseDogfathers#readme"
+}

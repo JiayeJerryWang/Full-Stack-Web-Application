@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+.App {
+  text-align: center;
+}
+.Navbar {
+  background-color: #282c34;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: calc(10px + 1.3svmin);
+}
+.Title {
+  font-size: calc(10px + 2vmin);
+}
+.Navbar ul{
+  flex-direction: row;
+  align-items: stretch;
+  text-align: center;
+  display: flex;
+  font-family: 'Sora', sans-serif;
+}
+.Navbar a {
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: .5rem;
+  box-sizing: border-box;
+  ;
+}
